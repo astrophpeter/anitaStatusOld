@@ -20,22 +20,21 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-10">
           <div class="alert alert-info" role="alert">Flight Status Live ...</div>
         </div>
       </div>
         <div class="row">
-          <div class="col-lg-10">
+          <div class="col-lg-7">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Overview</a></li>
+              <li class="active"><a href="#">Overview</a></li>
               <li><a href="#">Data Flow</a></li>
               <li><a href="#">Power</a></li>
               <li><a href="#">Memory</a></li>
               <li><a href="#">Altitude</a></li>
             </ul>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-3">
             <div class="alert alert-info" role="alert">Flight Status Live ...</div>
           </div>
       </div>
