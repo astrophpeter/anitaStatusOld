@@ -22,7 +22,7 @@
      echo "How are you?";
     ?>
 <p> iya </p>
-    <?php include("header.php"); ?>
+    <?php include 'header.php';?>
 
 
 
