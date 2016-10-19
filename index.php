@@ -18,8 +18,13 @@
 
     <?php include 'includes/header.php';?>
 
-
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="alert alert-info" role="alert">...</div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
