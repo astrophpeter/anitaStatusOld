@@ -10,7 +10,7 @@ echo'
             <span class="icon-bar"></span>
           </button>
           <a class="logo" rel="home" href="#"
-             src="/assets/log_trans.png">
+             src="/assets/logo_trans.png">
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
