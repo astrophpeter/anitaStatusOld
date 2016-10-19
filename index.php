@@ -16,13 +16,7 @@
 
   <body>
 
-
-    <?php
-     echo 'Hello World <br />';
-     echo "How are you?";
-    ?>
-<p> iya </p>
-    <?php include 'header.php';?>
+    <?php include 'includes/header.php';?>
 
 
 
