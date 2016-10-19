@@ -9,7 +9,8 @@ echo'
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="assets/log_trans.png" style="width:304px;height:228px;"></a>
+          <a class="logo" rel="home" href="#"
+             src="/assets/log_trans.png">
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
