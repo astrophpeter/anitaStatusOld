@@ -1,9 +1,8 @@
 <?php
 echo'
 <nav class="navbar navbar-light bg-faded">
-  <a class="navbar-brand" href="#">
-    <img src="/assets/logo_trans.png" width="120" height="50" alt="">
-  </a>
+<a class="navbar-brand" href="http://disputebills.com"><img src="assets/logo_trans.png" alt="Dispute Bills">
+      </a>
 </nav>
 ';
 ?>
