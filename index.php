@@ -17,9 +17,11 @@
   <body>
 
 <p> iya </p>
-    <?php include("includes/header.php"); ?>
+    <?php include("header.php"); ?>
 
-
+    <?php
+                echo "hdfguhbgzusgdfghdhhfgh";
+                ?>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
