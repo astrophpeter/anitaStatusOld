@@ -20,7 +20,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-12">
           <div class="alert alert-info" role="alert">...</div>
         </div>
       </div>
