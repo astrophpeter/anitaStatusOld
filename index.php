@@ -16,12 +16,15 @@
 
   <body>
 
+
+    <?php
+     echo 'Hello World <br />';
+     echo "How are you?";
+    ?>
 <p> iya </p>
     <?php include("header.php"); ?>
 
-    <?php
-                echo "hdfguhbgzusgdfghdhhfgh";
-                ?>
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
