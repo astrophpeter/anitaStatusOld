@@ -18,14 +18,14 @@
 
     <?php include 'includes/header.php';?>
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-10">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
           <div class="alert alert-info" role="alert">Flight Status Live ...</div>
         </div>
       </div>
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-7 col-md-6 col-sm-10 col-xs-10">
             <ul class="nav nav-tabs">
               <li class="active"><a href="#">Overview</a></li>
               <li><a href="#">Data Flow</a></li>
@@ -36,9 +36,6 @@
 
             <table class="table">
               <tbody>
-                <tr>
-                  <th scope="row"></th>
-                </tr>
               <tbody>
                 <tr>
                   <th scope="row"></th>
@@ -67,7 +64,7 @@
               </tbody>
             </table>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-4 col-sm-10 col-xs-10">
 
 
               <div class="panel panel-default">
