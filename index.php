@@ -35,7 +35,7 @@
             </ul>
           </div>
           <div class="col-lg-3">
-            <div class="alert alert-info" role="alert">
+
 
               <div class="panel panel-default">
                 <div class="panel-heading">Panel heading without title</div>
@@ -52,7 +52,7 @@
               </div>
 
 
-            </div>
+            
           </div>
       </div>
     </div>
