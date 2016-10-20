@@ -18,7 +18,7 @@
 
     <?php include 'includes/header.php';?>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-10">
           <div class="alert alert-info" role="alert">Flight Status Live ...</div>
