@@ -31,7 +31,7 @@
               <li><a href="#">Data Flow</a></li>
               <li><a href="#">Power</a></li>
               <li><a href="#">Memory</a></li>
-              <li><a href="#">Altitude</a></li>
+              <li><a href="temperature.html">Temperature</a></li>
             </ul>
 
             <table class="table">
@@ -41,7 +41,7 @@
                   <th scope="row"></th>
                   <td>Data Flow</td>
                   <td>Last Recieved: 16/10/16:13:34</td>
-                  <td><span class="label label-success">Good</span></td>
+                  <td><span class="label label-success"><h3>Good</h3></span></td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
@@ -68,7 +68,7 @@
 
 
               <div class="panel panel-default">
-                <div class="panel-heading">Packet Meta Data</div>
+                <div class="panel-heading">Recent Packet Meta Data</div>
                 <div class="panel-body">
                   <!-- List group -->
                   <ul class="list-group">
