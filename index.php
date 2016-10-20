@@ -20,12 +20,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <div class="alert alert-info" role="alert">Flight Status Live ...</div>
         </div>
       </div>
         <div class="row">
-          <div class="col-lg-7 col-md-6 col-sm-10 col-xs-10">
+          <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
             <ul class="nav nav-tabs">
               <li class="active"><a href="#">Overview</a></li>
               <li><a href="#">Data Flow</a></li>
@@ -64,7 +64,7 @@
               </tbody>
             </table>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-10 col-xs-10">
+          <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
 
 
               <div class="panel panel-default">
