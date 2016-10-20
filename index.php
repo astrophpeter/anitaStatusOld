@@ -38,6 +38,13 @@
               <tbody>
                 <tr>
                   <th scope="row"></th>
+                  <td></td>
+                  <td></td>
+                  <td><</span></td>
+                </tr>
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
                   <td>Data Flow</td>
                   <td>Last Recieved: 16/10/16:13:34</td>
                   <td><span class="label label-success">Good</span></td>
@@ -52,7 +59,7 @@
                   <th scope="row"></th>
                   <td>Memory</td>
                   <td>Last Recieved: 16/10/16:13:34</td>
-                  <td><span class="label label-sucess">Good</span></td>
+                  <td><span class="label label-success">Good</span></td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
