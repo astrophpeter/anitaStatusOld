@@ -33,12 +33,41 @@
               <li><a href="#">Memory</a></li>
               <li><a href="#">Altitude</a></li>
             </ul>
+
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td>Data Flow</td>
+                  <td>Last Recieved: 16/10/16:13:34</td>
+                  <td><span class="label label-success">Good</span></td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td>Power</td>
+                  <td>Last Recieved: 16/10/16:13:34</td>
+                  <td><span class="label label-danger">Bad</span></td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td>Memory</td>
+                  <td>Last Recieved: 16/10/16:13:34</td>
+                  <td><span class="label label-sucess">Good</span></td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td>Altitude</td>
+                  <td>Last Recieved: 16/10/16:13:34</td>
+                  <td><span class="label label-warning">Warning</span></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div class="col-lg-3">
 
 
               <div class="panel panel-default">
-                <div class="panel-heading">Panel heading without title</div>
+                <div class="panel-heading">Packet Meta Data</div>
                 <div class="panel-body">
                   <!-- List group -->
                   <ul class="list-group">
@@ -52,7 +81,7 @@
               </div>
 
 
-            
+
           </div>
       </div>
     </div>
