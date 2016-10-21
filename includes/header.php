@@ -1,9 +1,11 @@
 <?php
 echo'
-<nav class="navbar-header">
-  <a class="navbar-brand" href="index.php">
-    <img src="assets/logo_trans.png" style="display: inline-block;height:50px;">
-</a>
+<nav class="navbar navbar-default">
+  <nav class="navbar-header">
+    <a class="navbar-brand" href="index.php">
+      <img src="assets/logo_trans.png">
+    </a>
+  </nav>
 </nav>
 ';
 ?>

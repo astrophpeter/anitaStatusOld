@@ -1,3 +1,7 @@
+.navbar-inner {
+    min-height: 0px;
+}
+
 .navbar-brand,
 .navbar-nav li a {
     line-height: 150px;
