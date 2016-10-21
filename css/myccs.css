@@ -4,7 +4,7 @@
 
 .navbar-brand,
 .navbar-nav li a {
-    line-height: 150px;
-    height: 150px;
-    padding-top: 0;
+    line-height: 350px;
+    height: 350px;
+    padding-top: -10px;
 }
