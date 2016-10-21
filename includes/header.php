@@ -9,7 +9,7 @@ echo'
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="#"><img src="img/logo_trans.png" height="50" /></a>
+        <a class="navbar-brand" href="#"><img src="assets/logo_trans.png" height="150" /></a>
     </div>
 
     <div class="collapse navbar-collapse">
