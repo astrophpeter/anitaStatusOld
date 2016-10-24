@@ -2,7 +2,7 @@
 echo '
 
 <div class="alert alert-info" role="alert">
-  <table class="table">
+  <table class="table borderless">
     <tbody>
       <tr>
 
