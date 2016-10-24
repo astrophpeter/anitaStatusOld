@@ -28,42 +28,53 @@
         <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#">Overview</a></li>
+              <li class="active"><a href="#overview">Overview</a></li>
               <li><a href="#">Data Flow</a></li>
               <li><a href="#">Power</a></li>
               <li><a href="#">Memory</a></li>
               <li><a href="#temperature">Temperature</a></li>
             </ul>
 
-            <table class="table">
-              <tbody>
-              <tbody>
-                <tr>
-                  <th scope="row"></th>
-                  <td>Data Flow</td>
-                  <td>Last Recieved: 16/10/16:13:34</td>
-                  <td><span class="label label-success">Good</span></td>
-                </tr>
-                <tr>
-                  <th scope="row"></th>
-                  <td>Power</td>
-                  <td>Last Recieved: 16/10/16:13:34</td>
-                  <td><span class="label label-danger">Bad</span></td>
-                </tr>
-                <tr>
-                  <th scope="row"></th>
-                  <td>Memory</td>
-                  <td>Last Recieved: 16/10/16:13:34</td>
-                  <td><span class="label label-success">Good</span></td>
-                </tr>
-                <tr>
-                  <th scope="row"></th>
-                  <td>Altitude</td>
-                  <td>Last Recieved: 16/10/16:13:34</td>
-                  <td><span class="label label-warning">Warning</span></td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="tab-content">
+            <div id="temperature" class="tab-pane fade">
+               <?php include 'includes/temperature.php';?>
+            </div>
+            <div id="overview" class="tab-pane fade in active">
+              <table class="table">
+                <tbody>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Data Flow</td>
+                    <td>Last Recieved: 16/10/16:13:34</td>
+                    <td><span class="label label-success">Good</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Power</td>
+                    <td>Last Recieved: 16/10/16:13:34</td>
+                    <td><span class="label label-danger">Bad</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Memory</td>
+                    <td>Last Recieved: 16/10/16:13:34</td>
+                    <td><span class="label label-success">Good</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Altitude</td>
+                    <td>Last Recieved: 16/10/16:13:34</td>
+                    <td><span class="label label-warning">Warning</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+              <h3>Menu 2</h3>
+              <p>Some content in menu 2.</p>
+            </div>
+          </div>
           </div>
           <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
 
@@ -90,7 +101,7 @@
 
   <div class="tab-content">
   <div id="temperature" class="tab-pane fade">
-     <?php include 'includes/header.php';?>
+     <?php include 'includes/temperature.php';?>
   </div>
   <div id="menu1" class="tab-pane fade">
     <h3>Menu 1</h3>
