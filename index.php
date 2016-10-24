@@ -37,46 +37,6 @@
               <li><a data-toggle="tab" href="#temperature">Temperature</a></li>
             </ul>
 
-            <div class="tab-content">
-            <div id="temperature" class="tab-pane fade">
-               <?php include 'includes/temperature.php';?>
-            </div>
-            <div id="overview" class="tab-pane fade in active">
-              <table class="table">
-                <tbody>
-                  <tr>
-                    <th scope="row"></th>
-                    <td>Data Flow</td>
-                    <td>Last Recieved: 16/10/16:13:34</td>
-                    <td><span class="label label-success">Good</span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"></th>
-                    <td>Power</td>
-                    <td>Last Recieved: 16/10/16:13:34</td>
-                    <td><span class="label label-danger">Bad</span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"></th>
-                    <td>Memory</td>
-                    <td>Last Recieved: 16/10/16:13:34</td>
-                    <td><span class="label label-success">Good</span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row"></th>
-                    <td>Altitude</td>
-                    <td>Last Recieved: 16/10/16:13:34</td>
-                    <td><span class="label label-warning">Warning</span></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div id="dataflow" class="tab-pane fade">
-              <h3>Menu 2</h3>
-              <p>Some content in menu 2.</p>
-            </div>
-          </div>
-
           <div id="content">
      <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
        <li class="active"><a href="#red" data-toggle="tab">Red</a>
