@@ -89,7 +89,7 @@
     </div>
 
     <div id="temperature" class="tab-content">
-
+    <?php include 'includes/temperature.php';?>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
