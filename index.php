@@ -29,15 +29,8 @@
       </div>
         <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
-            <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
-              <li><a data-toggle="tab" href="#dataflow">Data Flow</a></li>
-              <li><a data-toggle="tab" href="#power">Power</a></li>
-              <li><a data-toggle="tab" href="#memory">Memory</a></li>
-              <li><a data-toggle="tab" href="#temperature">Temperature</a></li>
-            </ul>
 
-          <div id="content">
+     <div id="content">
      <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
        <li class="active"><a href="#overview" data-toggle="tab">Overview</a>
        </li>
