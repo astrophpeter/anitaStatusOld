@@ -39,20 +39,20 @@
 
           <div id="content">
      <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-       <li class="active"><a href="#red" data-toggle="tab">Red</a>
+       <li class="active"><a href="#overview" data-toggle="tab">Overview</a>
        </li>
-       <li><a href="#orange" data-toggle="tab">Orange</a>
+       <li><a href="#orange" data-toggle="tab">Data Flow</a>
        </li>
-       <li><a href="#yellow" data-toggle="tab">Yellow</a>
+       <li><a href="#yellow" data-toggle="tab">Power</a>
        </li>
-       <li><a href="#green" data-toggle="tab">Green</a>
+       <li><a href="#green" data-toggle="tab">Memory</a>
        </li>
-       <li><a href="#blue" data-toggle="tab">Blue</a>
+       <li><a href="#tempereature" data-toggle="tab">Temperature</a>
        </li>
      </ul>
    </div>
    <div id="my-tab-content" class="tab-content">
-     <div class="tab-pane active" id="red">
+     <div class="tab-pane active" id="overview">
        <h1>Red</h1>
        <p>red red red red red red</p>
      </div>
@@ -68,9 +68,8 @@
        <h1>Green</h1>
        <p>green green green green green</p>
      </div>
-     <div class="tab-pane" id="blue">
-       <h1>Blue</h1>
-       <p>blue blue blue blue blue</p>
+     <div class="tab-pane" id="temperature">
+       <?php include 'includes/temperature.php';?>
      </div>
    </div>
 
