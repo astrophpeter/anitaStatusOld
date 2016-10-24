@@ -42,7 +42,7 @@
                   <th scope="row"></th>
                   <td>Data Flow</td>
                   <td>Last Recieved: 16/10/16:13:34</td>
-                  <td><span class="label label-success"><h3>Good</h3></span></td>
+                  <td><span class="label label-success">Good</span></td>
                 </tr>
                 <tr>
                   <th scope="row"></th>
@@ -88,9 +88,19 @@
       </div>
     </div>
 
-    <div id="temperature" class="tab-content">
-    <?php include 'includes/temperature.php';?>
-    </div>
+  <div class="tab-content">
+  <div id="temperature" class="tab-pane fade">
+     <?php include 'includes/header.php';?>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>Menu 1</h3>
+    <p>Some content in menu 1.</p>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h3>Menu 2</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
