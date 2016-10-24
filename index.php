@@ -22,17 +22,19 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
           <?php include 'includes/banner.php';?>
+
         </div>
       </div>
         <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
             <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+              <li class="active"><a data-toggle="tab" href="overview">Overview</a></li>
               <li><a data-toggle="tab" href="#dataflow">Data Flow</a></li>
               <li><a data-toggle="tab" href="#power">Power</a></li>
               <li><a data-toggle="tab" href="#memory">Memory</a></li>
-              <li><a data-toggle="tab" href="#temperature">Temperature</a></li>
+              <li><a data-toggle="tab" href="temperature">Temperature</a></li>
             </ul>
 
             <div class="tab-content">
@@ -41,7 +43,6 @@
             </div>
             <div id="overview" class="tab-pane fade in active">
               <table class="table">
-                <tbody>
                 <tbody>
                   <tr>
                     <th scope="row"></th>

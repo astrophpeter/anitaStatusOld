@@ -1,7 +1,7 @@
 <?php
 echo'
 
-
+<p> Hello </p>
 <canvas id="myChart" width="100%" height="100%"></canvas>
 <script>
 var ctx = document.getElementById("myChart");
