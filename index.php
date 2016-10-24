@@ -62,8 +62,7 @@
                 <p>green green green green green</p>
               </div>
               <div class="tab-pane" id="blue">
-                <h1>Blue</h1>
-                <p>blue blue blue blue blue</p>
+                <?php include 'includes/temperature.php';?>
               </div>
             </div>
 
