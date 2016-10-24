@@ -28,11 +28,11 @@
         <div class="row">
           <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#overview">Overview</a></li>
-              <li><a href="#">Data Flow</a></li>
-              <li><a href="#">Power</a></li>
-              <li><a href="#">Memory</a></li>
-              <li><a href="#temperature">Temperature</a></li>
+              <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+              <li><a data-toggle="tab" href="#dataflow">Data Flow</a></li>
+              <li><a data-toggle="tab" href="#power">Power</a></li>
+              <li><a data-toggle="tab" href="#memory">Memory</a></li>
+              <li><a data-toggle="tab" href="#temperature">Temperature</a></li>
             </ul>
 
             <div class="tab-content">
@@ -70,7 +70,7 @@
                 </tbody>
               </table>
             </div>
-            <div id="menu2" class="tab-pane fade">
+            <div id="dataflow" class="tab-pane fade">
               <h3>Menu 2</h3>
               <p>Some content in menu 2.</p>
             </div>
