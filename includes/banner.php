@@ -2,21 +2,22 @@
 echo '
 
 <div class="alert alert-info" role="alert">
-  <table class="table borderless">
-    <tbody>
-      <tr>
+  <div class="row">
 
-        <th scope="row"></th>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        Flight Status: <img src="assets/live.gif"/> Live
+    </div>
 
-        <td>Flight Status: <img src="assets/live.gif"/> Live<</td>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        Flight Duration: 1 Day 34 hours 32 s
+    </div>
 
-        <td>Flight Duration: 1 Day 34 hours 32 s</td>
-
-        <td>Last Packet Recieved: 12/10/16:13:34</td>
-
-      </tr>
-    </tbody>
-  </table>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+       Last Packet Recieved: 12/10/16:13:34
+    </div>
+        
+</div>
+</div>
 
 '
 
