@@ -32,7 +32,7 @@
               <li><a href="#">Data Flow</a></li>
               <li><a href="#">Power</a></li>
               <li><a href="#">Memory</a></li>
-              <li><a href="temperature.html">Temperature</a></li>
+              <li><a href="#temperature">Temperature</a></li>
             </ul>
 
             <table class="table">
@@ -86,6 +86,10 @@
 
           </div>
       </div>
+    </div>
+
+    <div id="temperature" class="tab-content">
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
